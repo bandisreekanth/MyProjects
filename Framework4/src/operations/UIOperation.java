@@ -80,6 +80,7 @@ public class UIOperation
 		
 			case "GOTOURL":
 				//Get url of application
+				System.out.println("  "+p.getObjectRepository_Excel(value));
 				driver.get(p.getObjectRepository_Excel(value));
 				break;
 			
@@ -96,6 +97,23 @@ public class UIOperation
 				else
 				{
 					System.out.println("TestCase Failed : Actual -"+actual+" , expected -"+value);
+					throw new Exception("Actual and expected not matched");
+				}
+				break;
+				
+			case "GETTEXTCONTAINS":
+				//Get text of an element
+				String actual1=driver.findElement(this.getObject(p,objectName,objectType)).getText();
+				//System.out.println("actual :"+actual+":");
+				//System.out.println("actual :"+value+":");
+
+				if(actual1.contains(value))
+				{
+					System.out.println("TestCase Pass");
+				}
+				else
+				{
+					System.out.println("TestCase Failed : Actual -"+actual1+" , expected -"+value);
 					throw new Exception("Actual and expected not matched");
 				}
 				break;

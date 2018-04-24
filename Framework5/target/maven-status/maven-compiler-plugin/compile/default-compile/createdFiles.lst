@@ -1,7 +1,0 @@
-testUtil\DataUtil.class
-extentManager\ExtentManager.class
-testUtil\Xls_Reader.class
-testKeywords\AppKeywords.class
-testUtil\Constants.class
-testKeywords\GenericKeywords.class
-testKeywords\Keyword.class
