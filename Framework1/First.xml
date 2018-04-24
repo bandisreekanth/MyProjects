@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ICICISHG">
+  <test name="Test1">
+    <classes>
+      <class name="TS01_VerifyUrl"/>	
+      <class name="TS02_Login_Verification"/> 
+      <class name="TS04_Transactions_All"/>
+      <class name="TS06_ControlCenter_All"/>
+      <class name="TS07_Reports_Verification"/>
+      <class name="TS08_Reports_All"/>
+      <class name="TS09_Query_All"/>   
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
+    
