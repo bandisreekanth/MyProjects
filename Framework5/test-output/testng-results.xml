@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite1" duration-ms="41269" started-at="2018-04-24T12:25:10Z" finished-at="2018-04-24T12:25:51Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="41269" started-at="2018-04-24T12:25:10Z" finished-at="2018-04-24T12:25:51Z">
+      <class name="testCases.LogoutFunctionality">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:testCases.LogoutFunctionality@458c1321]" name="loginTest" duration-ms="17315" started-at="2018-04-24T17:55:34Z" data-provider="getData" finished-at="2018-04-24T17:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserId=3000, Password=Uat@1234, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testCases.LogoutFunctionality -->
+      <class name="testCases.UrlVerification">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:testCases.UrlVerification@1877ab81]" name="loginTest" duration-ms="10502" started-at="2018-04-24T17:55:11Z" data-provider="getData" finished-at="2018-04-24T17:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{WelcomeText=TELESONIC, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:testCases.UrlVerification@1877ab81]" name="quit" is-config="true" duration-ms="206" started-at="2018-04-24T17:55:51Z" finished-at="2018-04-24T17:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testCases.UrlVerification -->
+      <class name="testCases.LoginFunctionality">
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.LoginFunctionality@305fd85d]" name="init" is-config="true" duration-ms="382" started-at="2018-04-24T17:55:10Z" finished-at="2018-04-24T17:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.LogoutFunctionality@458c1321]" name="init" is-config="true" duration-ms="38" started-at="2018-04-24T17:55:10Z" finished-at="2018-04-24T17:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testCases.UrlVerification@1877ab81]" name="init" is-config="true" duration-ms="29" started-at="2018-04-24T17:55:10Z" finished-at="2018-04-24T17:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:testCases.LoginFunctionality@305fd85d]" name="loginTest" duration-ms="12756" started-at="2018-04-24T17:55:21Z" data-provider="getData" finished-at="2018-04-24T17:55:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserId=3000, Password=Uat@1234, Runmode=Y, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testCases.LoginFunctionality -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
